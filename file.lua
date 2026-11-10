@@ -1,6 +1,6 @@
 -- Main.lua  (replace the 71-byte pointer with this)
 local CORE = "https://cdn.sourceb.in/bins/QojF6dPcSp/0"
-local UI   = "https://raw.githubusercontent.com/matchascriptz/Matcha-Hubs-Anime-Adventure/refs/heads/main/UI.lua"
+local UI = "https://raw.githubusercontent.com/matchascriptz/Matcha-Hubs-Anime-Adventure/main/file.lua"
 
 if getgenv().MatchaRunning then
     pcall(function() if getgenv().MatchaCleanup then getgenv().MatchaCleanup() end end)
